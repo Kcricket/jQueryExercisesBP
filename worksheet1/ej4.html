@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#button").click(function(){
+    $(".hidden").hide();
+  });
+});
+</script>
+</head>
+<body>
+<div id="container">
+    <h2 class="not_hidden">Im the header, alive.</h2>
+    <p class="hidden">Im the first p class, Kik me off!</p>
+    <p>Im the second p class, alive</p>
+    <button id="button">Hide all</button>
+</div>
+</body>
+</html>
